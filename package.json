@@ -1,5 +1,5 @@
 {
-  "name": "eduflow_sequelize",
+  "name": "abdallah-altanna-mysql",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "dev": "nodemon app.ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "Abdallah Altanna",
   "license": "ISC",
   "devDependencies": {
     "@types/express": "^4.17.17",
