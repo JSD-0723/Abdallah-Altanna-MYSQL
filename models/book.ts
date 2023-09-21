@@ -20,7 +20,7 @@ Book.init(
       allowNull: false,
       unique: {
         name: 'author',
-        msg: 'Author already exists'
+        msg: 'Book already exists'
       }
     },
     ISBN: {
@@ -28,7 +28,7 @@ Book.init(
       allowNull: false,
       unique: {
         name: 'ISBN',
-        msg: 'ISBN already exists'
+        msg: 'Book already exists'
       }
     }
   },
