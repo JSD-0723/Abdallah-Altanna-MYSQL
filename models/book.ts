@@ -32,7 +32,14 @@ Book.init(
       }
     }
   },
-  { sequelize: Database, modelName: 'Book' }
+  {
+    sequelize: Database,
+    modelName: 'Book',
+    tableName: 'books',
+    underscored: true,
+    createdAt: 'created_at',
+    updatedAt: 'updated_at'
+  }
 );
 
 export default Book;
